@@ -1,0 +1,90 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+/* helper classes */
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+.pull-left {
+    float: left;
+}
+.pull-right{
+    float:right;
+}
+.centered {
+    margin: 0 auto;
+}
+.text-centered {
+    text-align: center;
+}
+/* helper class */
+
+/* header */
+nav {
+    background-color: #000;
+    padding: 0 15px;
+}
+.logo {
+    height: 75px;
+}
+.nav-links {
+    list-style-type: none;
+    margin-top: 22px;
+}
+.nav-links li {
+    display: inline-block;
+    background-color: #101010;
+    padding: 10px 10px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+/* /header */
+
+/* main content */
+.contact section {
+    width: 35%;
+    margin: 75px;
+    background-color: #a39e9c; 
+}
+.contact section iframe {
+    height: 510px;
+    width: 100%;
+    border: solid #000;
+}
+main {
+    background-image: url(../img/gamer-wallpaper.jpg) 
+}
+
+
+/* /main content */
+
+/* footer */
+footer {
+    background-color: #202020;
+    height: 75px;
+    width: 100%;
+}
+footer div p {
+    text-align: center;
+    height: 75px;
+    width: 300px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.icon {
+    font-size: 40px;
+    color: #fff;
+    padding-top: 15px;
+    
+}
+/* /footer */
